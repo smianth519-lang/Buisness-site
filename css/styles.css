@@ -429,7 +429,7 @@ body {
     background-color: #010322be;
     position: absolute;
     left: 50px;
-    bottom: 210px;
+    bottom: 10%;
     border-radius: 50px;
     padding: 20px;
     display: flex;
@@ -468,7 +468,7 @@ body {
     background-color: #010322be;
     position: absolute;
     right: 50px;
-    bottom: 180px;
+    bottom: 10%;
     border-radius: 50px;
     padding: 20px;
     display: flex;
@@ -1047,4 +1047,5 @@ box-shadow:
     .price-details{
         margin-top: 10px;
     }
+
 }
