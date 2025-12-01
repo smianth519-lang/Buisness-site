@@ -301,7 +301,8 @@ body {
 }
 
 .form-contact {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     padding: 15px 30px;
     font-size: 18px;
     color: white;
@@ -328,7 +329,16 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
-
+.form-contact a:hover {
+    text-decoration: underline;
+}
+.fa-brands.fa-facebook-f,
+.fa fa-envelope,
+.fab fa-instagram {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: rgb(0, 89, 255);
+}
 /* ===== CONTENT SECTIONS ===== */
 .under-header {
     background: linear-gradient(180deg, rgba(252, 111, 30, 0.4), rgba(68, 103, 255, 0.4), rgba(176, 181, 255, 0.4)), 
@@ -1433,5 +1443,6 @@ section {
         font-size: 2rem;
     }
 }
+
 
 
